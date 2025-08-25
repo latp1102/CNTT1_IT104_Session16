@@ -4,7 +4,6 @@ import Button from "./components/b3/Button"
 import Counter from "./components/b4/Counter"
 import UserForm from "./components/b5/UserForm"
 import ThemeSwitcher from "./components/b6/ThemeSwitcher"
-import Shoppings from "./components/b8/Shoppings"
 import Shooping from "./components/b7/Shooping"
 function App() {
 
@@ -27,7 +26,6 @@ function App() {
     {/* <ThemeSwitcher/> */}
     {/* <UserForm/> */}
     <Shooping/>
-    {/* <Shoppings/> */}
     </>
   )
 }
