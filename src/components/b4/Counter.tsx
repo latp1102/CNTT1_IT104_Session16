@@ -11,9 +11,9 @@ export default class Counter extends Component<object, StateType> {
     }
   render() {
     const handleClick = () => {
-        this.setState((prevState) => ({
-            count: prevState.count + 1,
-        }))
+        this.setState({
+          count: this.state.count + 1,
+        })
     }
     return (
       <div>
