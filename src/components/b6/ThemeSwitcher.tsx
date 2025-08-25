@@ -13,7 +13,7 @@ export default class ThemeSwitcher extends Component<object, StateType> {
   render() {
       const {isDarkMode} = this.state;
       const handleClick = () => {
-        this.setState(prevState => ({isDarkMode: prevState.isDarkMode ? false: true}));
+        this.setState({ isDarkMode: !this.state.isDarkMode });
       }
     return (
       <div className={`theme-switcher ${isDarkMode ? 'dark' : 'light'}`}>
