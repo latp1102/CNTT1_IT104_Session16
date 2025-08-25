@@ -4,7 +4,7 @@ interface State {
   formData: {
     name: string;
     email: string;
-    age: string; // dùng string để dễ bind với input
+    age: string; 
   };
   errors: {
     email?: string;
@@ -17,8 +17,8 @@ interface State {
   } | null;
 }
 
-export default class UserForm extends Component<{}, State> {
-  constructor(props: {}) {
+export default class UserForm extends Component<object, State> {
+  constructor(props: object) {
     super(props);
     this.state = {
       formData: { name: "", email: "", age: "" },
