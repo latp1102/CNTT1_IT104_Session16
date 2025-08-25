@@ -1,0 +1,148 @@
+#header {
+  background-color: #f97316; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+}
+
+#headerLeft {
+  display: flex;
+  gap: 20px;
+}
+
+#headerLeft span {
+  cursor: pointer;
+}
+
+#headerRight {
+  position: relative;
+  cursor: pointer;
+}
+
+#phoneList {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin: 20px;
+}
+
+.items {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  text-align: center;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.items img {
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.items div:nth-child(2) {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.items div:nth-child(3) {
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.items button {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  transition: 0.2s;
+}
+
+.items button:hover {
+  background-color: #2563eb;
+}
+
+#buyWindow {
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  width: 320px;
+  background: #000;
+  color: white;
+  border-radius: 10px;
+  padding: 15px;
+  display: none;
+  z-index: 999;
+}
+
+#buyWindow.show {
+  display: block;
+}
+
+#cartModel {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  justify-content: space-between;
+}
+
+#cartModel img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+#cartModel .info {
+  flex: 1;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+#cartModel .quantity {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+#cartModel button {
+  background: #111;
+  color: white;
+  border: 1px solid #444;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#cartModel button:hover {
+  background: #333;
+}
+
+#cartModel .delete {
+  cursor: pointer;
+  color: #bbb;
+  margin-left: 10px;
+}
+
+#cartModel .delete:hover {
+  color: red;
+}
+
+#buyWindow .total {
+  border-top: 1px solid #444;
+  margin-top: 15px;
+  padding-top: 10px;
+  font-weight: bold;
+}

@@ -1,0 +1,85 @@
+.btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  margin: 4px;
+}
+
+.btn-primary {
+  background-color: blue;
+  color: white;
+}
+.btn-primary:hover {
+  background-color: blue;
+}
+
+.btn-secondary {
+  background-color: gray;
+  color: white;
+}
+.btn-secondary:hover {
+  background-color: gray;
+}
+
+
+.btn-success {
+  background-color: green;
+  color: white;
+}
+.btn-success:hover {
+  background-color: green;
+}
+
+.btn-warning {
+  background-color: gold;
+  color: black;
+}
+.btn-warning:hover {
+  background-color: gold;
+}
+
+.btn-danger {
+  background-color: red;
+  color: white;
+}
+.btn-danger:hover {
+  background-color: red;
+}
+
+.btn-info {
+  background-color: #0dcaf0;
+  color: black;
+}
+.btn-info:hover {
+  background-color: #31d2f2;
+}
+
+.btn-light {
+  background-color: #f8f9fa;
+  color: black;
+}
+.btn-light:hover {
+  background-color: #e2e6ea;
+}
+
+.btn-dark {
+  background-color: #212529;
+  color: white;
+}
+.btn-dark:hover {
+  background-color: #1c1f23;
+}
+
+.btn-link {
+  background: none;
+  border: none;
+  color: #0d6efd;
+  text-decoration: underline;
+  padding: 0;
+}
+.btn-link:hover {
+  color: #0a58ca;
+}
